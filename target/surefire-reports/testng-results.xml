@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-11T02:00:20 IST" name="Suite" finished-at="2024-07-11T02:01:19 IST" duration-ms="58837">
+    <groups>
+      <group name="form fill">
+        <method signature="FullFlowDemoQA.formFill()[pri:0, instance:com.kiwiqa.demoqatestng.FullFlowDemoQA@2a798d51]" name="formFill" class="com.kiwiqa.demoqatestng.FullFlowDemoQA"/>
+      </group> <!-- form fill -->
+    </groups>
+    <test started-at="2024-07-11T02:00:20 IST" name="Test" finished-at="2024-07-11T02:01:19 IST" duration-ms="58837">
+      <class name="com.kiwiqa.demoqatestng.FullFlowDemoQA">
+        <test-method is-config="true" signature="initAll(java.lang.String)[pri:0, instance:com.kiwiqa.demoqatestng.FullFlowDemoQA@2a798d51]" started-at="2024-07-11T02:00:15 IST" name="initAll" description="before suite give drivers" finished-at="2024-07-11T02:00:20 IST" duration-ms="4568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initAll -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:com.kiwiqa.demoqatestng.FullFlowDemoQA@2a798d51]" started-at="2024-07-11T02:00:20 IST" name="openWebsite" description="before method" finished-at="2024-07-11T02:01:13 IST" duration-ms="52682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="formFill()[pri:0, instance:com.kiwiqa.demoqatestng.FullFlowDemoQA@2a798d51]" started-at="2024-07-11T02:01:13 IST" name="formFill" description="fill form" finished-at="2024-07-11T02:01:17 IST" duration-ms="3992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formFill -->
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:com.kiwiqa.demoqatestng.FullFlowDemoQA@2a798d51]" started-at="2024-07-11T02:01:17 IST" name="check" description="Verify method" finished-at="2024-07-11T02:01:17 IST" duration-ms="395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=formFill status=SUCCESS method=FullFlowDemoQA.formFill()[pri:0, instance:com.kiwiqa.demoqatestng.FullFlowDemoQA@2a798d51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="driverQuit()[pri:0, instance:com.kiwiqa.demoqatestng.FullFlowDemoQA@2a798d51]" started-at="2024-07-11T02:01:17 IST" name="driverQuit" description="driver quit" finished-at="2024-07-11T02:01:19 IST" duration-ms="1700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- com.kiwiqa.demoqatestng.FullFlowDemoQA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
